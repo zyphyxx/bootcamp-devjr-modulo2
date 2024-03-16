@@ -25,7 +25,7 @@
     }
 
     .header {
-      padding: 40px;
+      padding: 2.5rem;
     }
 
     .flex-container {
@@ -37,56 +37,56 @@
 
     .header-title {
       color: #006666;
-      font-size: 32px;
+      font-size: 2rem;
       font-weight: 700;
-      margin-bottom: 20px;
+      margin-bottom: 1.25rem;
     }
 
     .header-subtitle {
       color: #009E9E;
-      font-size: 20px;
-      margin-bottom: 15px;
+      font-size: 1.25rem;
+      margin-bottom: 0.93rem;
     }
 
     .col-1 {
       background-color: #006a6a;
       width: 50%;
-      padding: 20px;
+      padding: 1.25rem;
     }
 
     .col-2 {
 
       background-color: #008E8E;
       width: 50%;
-      padding: 10px 20px;
+      padding: 0.62rem 1.25rem;
     }
 
     .subscription-title {
       text-align: center;
-      font-size: 20px;
-      padding-bottom: 15px;
+      font-size: 1.25rem;
+      padding-bottom: 0.92rem;
     }
 
     .price {
-      font-size: 26px;
+      font-size: 1.62rem;
       font-weight: 700px;
     }
 
     .month {
-      font-size: 15px;
+      font-size: 1rem;
       font-style: italic;
-      margin-left: 15px;
+      margin-left: 0.93rem;
     }
 
     .btn {
      width: 100%;
-     padding: 15px 32px;
+     padding: 0.93rem 2rem;
      color: #006a6a;
-     font-size: 16px;
+     font-size: 1rem;
      border-radius: 5px;
      border: none;
      background-color: #CCCCCC ;
-     margin-top: 20px;
+     margin-top: 1.25rem;
       cursor: pointer;
     }
 
@@ -98,6 +98,26 @@
       text-align: center;
       margin-bottom: 5px;
     }
+
+    @media screen and (max-width: 620px) { 
+      body {
+        font-size: 14px;
+      }
+
+      .flex-container {
+        flex-direction: column;
+      }
+
+      .col-1, .col-2 {
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      .container {
+        width: 95%;
+      }
+    }
+
 
   </style>
 
