@@ -90,6 +90,11 @@ body {
     margin-bottom: 5px;
   }
 
+  .btn-link {
+    color: #006666;
+    
+  }
+
   @media screen and (max-width: 620px) { 
     body {
       font-size: 14px;
@@ -107,4 +112,5 @@ body {
     .container {
       width: 95%;
     }
+
   }

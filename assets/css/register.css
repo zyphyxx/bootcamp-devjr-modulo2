@@ -1,0 +1,131 @@
+body {
+       background-color: #f5f5f5;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+.container {
+       background-color: #E9E9E9;
+       margin: auto;
+   
+       width: 600px;
+   
+       box-shadow: 1px 3px 8px 10px rgba(0, 0, 0, 0.2);
+       border-radius: 5px;
+       overflow: hidden;
+   
+     }
+
+.col-1 {
+       background-color: #E9E9E9;
+}
+
+.header-title {
+       font-size: 2rem;
+       font-weight: 560;
+       color: #006767;
+       padding-top: 2rem;
+       padding-left: 2rem;
+
+}
+
+.header-subtitle {
+       color: #006767;
+       padding-bottom: 1rem;
+       padding-left: 2rem;
+       padding-bottom: 2rem;
+
+}
+
+.col-2 {
+       background-color: #006767;
+}
+
+.img {
+       text-align: center;
+       padding-top: 1rem;
+       padding-bottom: 1rem;
+}
+
+.form-container {
+       width: 95%;
+       padding-left: 2%;
+       padding-right: 2%;
+       
+
+}
+
+input {
+       width: 95%;
+       padding: 0.65rem;
+       
+       border-radius: 5px;
+       font-size: 1.2rem;
+       border: 0;
+
+       
+}
+
+input:focus {
+       outline: none;
+       box-shadow: 0 0 10px #006767;
+}
+
+
+.btn-container {
+       text-align: center;
+       padding-top: 1rem;
+       box-shadow: none;
+       
+       
+       
+}
+
+.btn {
+       padding: 0.65rem;
+       width: 95%;
+       background-color: #CCCCCC;
+       border-radius: 5px;
+       color: #006767;
+       font-size: 100%;
+       border: none;
+       height: 3rem;
+
+
+}
+
+.btn:hover {
+       cursor: pointer;
+       background-color: #E9E9E9;
+}
+
+.link-container {
+       text-align: center;
+       padding-bottom: 1rem;
+       font-size: 0.81rem;
+       padding-top: 0.6rem;
+}
+
+a {
+       color: #CCCCCC;
+      
+}
+
+@media screen and (max-width: 620px) {
+       body {
+              font-size: 14px;
+              flex-direction: column;
+       }
+
+       .col-1,
+       .col-2 {
+              width: 100%;
+              box-sizing: border-box;
+       }
+
+       .container {
+              width: 95%;
+       }
+
+
+
+
+}
